@@ -10,8 +10,8 @@ const getRandom = (min = 2500,max = 5500) => {
 
 const trigger_click = elements => {
     window.setTimeout (
-		() => elements[0].click(),
-		getRandom(400,700)
+	() => elements[0].click(),
+	getRandom(350,500)
 	);
     window.setTimeout (
         () => elements[1].click(), 
